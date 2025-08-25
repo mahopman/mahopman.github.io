@@ -94,9 +94,45 @@ body {
   font-size: 1.25rem;
 }
 
+.bio-container {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.headshot {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .bio-container {
+    grid-template-columns: 1fr;
+  }
+  .headshot {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .paper-title {
   margin: 0 0 6px 0;
   font-size: 1rem;
+}
+
+.paper {
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.tag {
+  color: var(--muted);
+  font-weight: 600;
+  margin-right: 6px;
 }
 
 .paper-authors,

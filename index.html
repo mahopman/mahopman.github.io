@@ -6,6 +6,7 @@
   <title>Mia Hopman</title>
   <meta name="description" content="Personal website of Mia Hopman.">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/research.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -36,30 +37,15 @@
   <main class="container">
     <section id="biography" class="section">
       <h2 class="section-title">Biography</h2>
-      <p>My name is Mia. I am a master's student in the Data Science department at Worcester Polytechnic Institute, advised by <a href="https://rmoraffa.github.io/" target="_blank" rel="noopener">Dr. Raha Moraffah</a>. I'm interested in ensuring the safe development of AI systems. I was previous a Data Scientist at Hologic, but have transitioned into full-time technical AI safety research since the beginning of 2025. I am currently in London, UK working on scheming propensities of AI agents through the LASR Labs fellowship. I am also the Co-Research Lead for <a href="https://haist.ai/" target="_blank" rel="noopener">AISST</a>.</p>
+      <div class="bio-container">
+        <img class="headshot" src="assets/img/mia-hopman.jpg" alt="Portrait of Mia Hopman">
+        <p>I am an MS student in Data Science at Worcester Polytechnic Institute, advised by <a href="https://rmoraffa.github.io/" target="_blank" rel="noopener">Dr. Raha Moraffah</a>. My research focuses on ensuring the safe development of AI systems, with current work on agentic misbehavior and scheming propensities as part of the LASR Labs fellowship in London. I am a Co‑Research Lead for <a href="https://haist.ai/" target="_blank" rel="noopener">AISST</a> where I coordinate AI safety research for Harvard students interested in AI safety. Previously, I was a Data Scientist at Hologic, where I deployed machine learning systems to support the Quality Assurance, Supply Chain, and Data Analytics teams. I hold a BS in Data Science from WPI.</p>
+      </div>
     </section>
 
     <section id="research" class="section">
       <h2 class="section-title">Research</h2>
-
-      <article class="paper">
-        <h3 class="paper-title"><span class="tag">[example]</span> Paper or Project Title</h3>
-        <p class="paper-authors">First Last, Second Author, Mia Hopman</p>
-        <p class="paper-links">
-          <a href="#" target="_blank" rel="noopener">Paper</a> /
-          <a href="#" target="_blank" rel="noopener">Code</a> /
-          <a href="#" target="_blank" rel="noopener">bibtex</a>
-        </p>
-        <pre class="bibtex"><code>@misc{hopman2025example,
-  title={Your Paper Title},
-  author={First, Last and Second, Author and Hopman, Mia},
-  year={2025},
-  eprint={0000.00000},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/0000.00000}
-}</code></pre>
-      </article>
+      <div id="papers" aria-live="polite"></div>
     </section>
 
     <section id="news" class="section">
