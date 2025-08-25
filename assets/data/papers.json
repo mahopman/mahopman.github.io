@@ -1,11 +1,11 @@
 [
   {
-    "title": "Comparing different approaches to generating mathematics explanations using large language models",
-    "authors": "Prihar, Ethan; Lee, Morgan; Hopman, Mia; Kalai, Adam Tauman; Vempala, Sofia; Wang, Allison; Wickline, Gabriel; Murray, Aly; Heffernan, Neil",
-    "booktitle": "International Conference on Artificial Intelligence in Education",
-    "pages": "290--295",
-    "year": 2023,
-    "organization": "Springer"
+    "title": "Untrusted AIs can exploit feedback in control protocols",
+    "authors": "Hopman, Mia; BionicD0LPH1N; Tracy, Tyler",
+    "journal": "LessWrong",
+    "year": 2025,
+    "url": "https://www.lesswrong.com/posts/wKGdiXuWfn8YoYpMQ/untrusted-ais-can-exploit-feedback-in-control-protocols",
+    "representative": true
   },
   {
     "title": "Comparing different approaches to generating mathematics explanations using large language models",
@@ -13,7 +13,8 @@
     "booktitle": "International Conference on Artificial Intelligence in Education",
     "pages": "290--295",
     "year": 2023,
-    "organization": "Springer"
+    "organization": "Springer",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_45"
   },
   {
     "title": "Can Large Language Models Generate Middle School Mathematics Explanations Better Than Human Teachers?",
@@ -21,19 +22,22 @@
     "booktitle": "International Conference on Artificial Intelligence in Education",
     "pages": "242--250",
     "year": 2024,
-    "organization": "Springer Nature Switzerland Cham"
+    "organization": "Springer",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-64312-5_29"
   },
   {
     "title": "Combining Cost-Constrained Runtime Monitors for AI Safety",
     "authors": "Hua, Tim Tian; Baskerville, James; Lemoine, Henri; Hopman, Mia; Bhatt, Aryan; Tracy, Tyler",
     "journal": "arXiv preprint arXiv:2507.15886",
-    "year": 2025
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2507.15886"
   },
   {
     "title": "Predicting Rookie Season Performance Based on National Football League (NFL) Scouting Combine Movement Analysis",
     "authors": "Dzwil, Matthew; Hopman, Mia; Houskeeper, Katie",
     "year": 2023,
-    "school": "Undergraduate Capstone, Worcester Polytechnic Institute, Worcester"
+    "school": "Undergraduate Capstone, Worcester Polytechnic Institute, Worcester",
+    "url": "https://digital.wpi.edu/downloads/76537479s"
   }
 ]
 

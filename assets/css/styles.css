@@ -129,6 +129,25 @@ body {
   border-bottom: 1px dashed var(--border);
 }
 
+.paper.representative {
+  background: #f6fbff;
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+}
+
+.rep-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: #eaf2ff;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .tag {
   color: var(--muted);
   font-weight: 600;
@@ -157,6 +176,12 @@ body {
   padding: 12px;
   overflow: auto;
   border-radius: 6px;
+}
+
+.papers-legend {
+  margin: 0 0 8px 0;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .news-list {
