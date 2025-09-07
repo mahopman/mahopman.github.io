@@ -1,7 +1,7 @@
 [
   {
     "title": "Untrusted AIs can exploit feedback in control protocols",
-    "authors": "Hopman, Mia; BionicD0LPH1N; Tracy, Tyler",
+    "authors": "Hopman, Mia; Lemoine, Henri; Tracy, Tyler",
     "journal": "LessWrong",
     "year": 2025,
     "url": "https://www.lesswrong.com/posts/wKGdiXuWfn8YoYpMQ/untrusted-ais-can-exploit-feedback-in-control-protocols",
@@ -15,15 +15,6 @@
     "year": 2023,
     "organization": "Springer",
     "url": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_45"
-  },
-  {
-    "title": "Can Large Language Models Generate Middle School Mathematics Explanations Better Than Human Teachers?",
-    "authors": "Wang, Allison; Prihar, Ethan; Haim, Aaron; Heffernan, Neil",
-    "booktitle": "International Conference on Artificial Intelligence in Education",
-    "pages": "242--250",
-    "year": 2024,
-    "organization": "Springer",
-    "url": "https://link.springer.com/chapter/10.1007/978-3-031-64312-5_29"
   },
   {
     "title": "Combining Cost-Constrained Runtime Monitors for AI Safety",
