@@ -4,7 +4,12 @@
     "authors": "Hopman, Mia; Lemoine, Henri; Tracy, Tyler",
     "journal": "LessWrong",
     "year": 2025,
-    "url": "https://www.lesswrong.com/posts/wKGdiXuWfn8YoYpMQ/untrusted-ais-can-exploit-feedback-in-control-protocols",
+    "links": [
+      {
+        "label": "Blog Post",
+        "href": "https://www.lesswrong.com/posts/wKGdiXuWfn8YoYpMQ/untrusted-ais-can-exploit-feedback-in-control-protocols"
+      }
+    ],
     "representative": true
   },
   {
@@ -14,21 +19,40 @@
     "pages": "290--295",
     "year": 2023,
     "organization": "Springer",
-    "url": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_45"
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://link.springer.com/chapter/10.1007/978-3-031-36336-8_45"
+      }
+    ]
   },
   {
     "title": "Combining Cost-Constrained Runtime Monitors for AI Safety",
     "authors": "Hua, Tim Tian; Baskerville, James; Lemoine, Henri; Hopman, Mia; Bhatt, Aryan; Tracy, Tyler",
     "journal": "arXiv preprint arXiv:2507.15886",
     "year": 2025,
-    "url": "https://arxiv.org/abs/2507.15886"
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://arxiv.org/abs/2507.15886"
+      },
+      {
+        "label": "Blog Post",
+        "href": "https://www.lesswrong.com/posts/sQAcY9EyzS6pBnKtH/combining-cost-constrained-runtime-monitors-for-ai-safety"
+      }
+    ]
   },
   {
     "title": "Predicting Rookie Season Performance Based on National Football League (NFL) Scouting Combine Movement Analysis",
     "authors": "Dzwil, Matthew; Hopman, Mia; Houskeeper, Katie",
     "year": 2023,
     "school": "Undergraduate Capstone, Worcester Polytechnic Institute, Worcester",
-    "url": "https://digital.wpi.edu/downloads/76537479s"
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://digital.wpi.edu/downloads/76537479s"
+      }
+    ]
   }
 ]
 

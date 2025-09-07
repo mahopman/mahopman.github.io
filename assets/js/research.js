@@ -39,12 +39,33 @@
   }
 
   function buildLinks(p) {
-    const links = [
+    // If a structured links array is provided, prefer it.
+    if (Array.isArray(p.links) && p.links.length > 0) {
+      const anchors = p.links
+        .map(link => {
+          if (!link) return null;
+          if (typeof link === 'string') {
+            return `<a href="${encodeURI(link)}" target="_blank" rel="noopener">Link</a>`;
+          }
+          if (typeof link === 'object') {
+            const href = typeof link.href === 'string' ? link.href : link.url;
+            const rawLabel = link.label || link.text || link.title || 'Link';
+            if (!href || typeof href !== 'string') return null;
+            return `<a href="${encodeURI(href)}" target="_blank" rel="noopener">${escapeHtml(rawLabel)}</a>`;
+          }
+          return null;
+        })
+        .filter(Boolean);
+      return anchors.join(' / ');
+    }
+
+    // Backwards-compatibility: support legacy top-level properties.
+    const legacyLinks = [
       p.url ? `<a href="${encodeURI(p.url)}" target="_blank" rel="noopener">Paper</a>` : null,
       p.code ? `<a href="${encodeURI(p.code)}" target="_blank" rel="noopener">Code</a>` : null,
       p.bibtex ? `<a href="${encodeURI(p.bibtex)}" target="_blank" rel="noopener">bibtex</a>` : null,
     ].filter(Boolean);
-    return links.join(' / ');
+    return legacyLinks.join(' / ');
   }
 
   function sortByRecency(a, b) {
