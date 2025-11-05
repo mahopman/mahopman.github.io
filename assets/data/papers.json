@@ -1,5 +1,17 @@
 [
   {
+    "title": "Optimally Combining Probe Monitors and Black Box Monitors",
+    "authors": "Hua, Tim Tian; Baskerville, James; Lemoine, Henri; Hopman, Mia; Bhatt, Aryan; Tracy, Tyler",
+    "journal": "LessWrong",
+    "year": 2025,
+    "links": [
+      {
+        "label": "Blog Post",
+        "href": "https://www.lesswrong.com/posts/FhixwyymPxF8TZX39/optimally-combining-probe-monitors-and-black-box-monitors"
+      }
+    ]
+  },
+  {
     "title": "Untrusted AIs can exploit feedback in control protocols",
     "authors": "Hopman, Mia; Lemoine, Henri; Tracy, Tyler",
     "journal": "LessWrong",
@@ -29,7 +41,7 @@
   {
     "title": "Combining Cost-Constrained Runtime Monitors for AI Safety",
     "authors": "Hua, Tim Tian; Baskerville, James; Lemoine, Henri; Hopman, Mia; Bhatt, Aryan; Tracy, Tyler",
-    "journal": "arXiv preprint arXiv:2507.15886",
+    "booktitle": "Conference on Neural Information Processing Systems (NeurIPS)",
     "year": 2025,
     "links": [
       {
@@ -41,6 +53,13 @@
         "href": "https://www.lesswrong.com/posts/sQAcY9EyzS6pBnKtH/combining-cost-constrained-runtime-monitors-for-ai-safety"
       }
     ]
+  },
+  {
+    "title": "LASR: Learning to Assess Scheming Risk",
+    "authors": "Hopman, Mia",
+    "booktitle": "EurIPS 2025 Workshop on the Science of Benchmarking and Evaluating AI",
+    "year": 2025,
+    "links": []
   },
   {
     "title": "Predicting Rookie Season Performance Based on National Football League (NFL) Scouting Combine Movement Analysis",
