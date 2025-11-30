@@ -4,7 +4,7 @@
     if (!container) return;
 
     try {
-      const response = await fetch('assets/data/papers.json', { cache: 'no-store' });
+      const response = await fetch('assets/data/papers.json');
       if (!response.ok) throw new Error('Failed to load papers.json');
       const items = await response.json();
 
@@ -17,8 +17,6 @@
       container.innerHTML = sorted.map(renderPaper).join('');
     } catch (error) {
       container.innerHTML = '<p>Unable to load publications right now.</p>';
-      // Optionally log error
-      // console.error(error);
     }
   }
 
