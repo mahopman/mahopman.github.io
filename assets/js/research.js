@@ -26,6 +26,7 @@
     const title = escapeHtml(p.title || 'Untitled');
     const authors = formatAuthors(p.authors);
     const year = p.year ? ` (${escapeHtml(String(p.year))})` : '';
+    const venue = p.venue || p.booktitle || p.journal || '';
     const links = buildLinks(p);
     const repBadge = p.representative ? `<span class="rep-badge" aria-label="Representative work">Representative</span>` : '';
 
@@ -33,6 +34,7 @@
       <article class="paper${p.representative ? ' representative' : ''}">
         <h3 class="paper-title">${repBadge} ${title}${year}</h3>
         ${authors ? `<p class="paper-authors">${authors}</p>` : ''}
+        ${venue ? `<p class="paper-venue"><em>${escapeHtml(venue)}</em></p>` : ''}
         ${links ? `<p class="paper-links">${links}</p>` : ''}
       </article>
     `;
