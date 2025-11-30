@@ -86,7 +86,10 @@
     const authorNames = authorsString.split(';').map(s => s.trim()).filter(Boolean);
 
     const formatted = authorNames.map(name => {
-      const escaped = escapeHtml(name);
+      // Convert "Last, First" to "First Last"
+      const parts = name.split(',').map(s => s.trim());
+      const displayName = parts.length === 2 ? `${parts[1]} ${parts[0]}` : name;
+      const escaped = escapeHtml(displayName);
       const lower = name.toLowerCase();
       if (lower.includes(myLastName)) {
         return `<strong>${escaped}</strong>`;
@@ -94,7 +97,7 @@
       return escaped;
     });
 
-    return formatted.join('; ');
+    return formatted.join(', ');
   }
 
   function escapeHtml(str) {
