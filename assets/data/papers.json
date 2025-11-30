@@ -1,5 +1,38 @@
 [
   {
+    "title": "Prompt optimization can enable AI control research",
+    "authors": "Hopman, Mia",
+    "journal": "LessWrong",
+    "year": 2025,
+    "links": [
+      {
+        "label": "Blog Post",
+        "href": "https://www.lesswrong.com/posts/bALBxf3yGGx4bvvem/prompt-optimization-can-enable-ai-control-research"
+      },
+      {
+        "label": "Code",
+        "href": "https://github.com/mahopman/dspy-trusted-monitor"
+      }
+    ],
+    "representative": true
+  },
+  {
+    "title": "Understanding and evaluating scheming propensity of frontier LLM agents",
+    "authors": "Hopman, Mia",
+    "year": 2025,
+    "links": [
+      {
+        "label": "Paper",
+        "href": "https://static1.squarespace.com/static/660eea75305d9a0e1148118a/t/691f711c4ac57d3831260538/1763668252592/scheming-propensity.pdf"
+      },
+      {
+        "label": "Blog Post",
+        "href": "https://www.lesswrong.com/posts/4JnjtyNyAxcz5w652/current-llm-agents-need-strong-pressure-to-engage-in"
+      }
+    ],
+    "representative": true
+  },
+  {
     "title": "Untrusted AIs can exploit feedback in control protocols",
     "authors": "Hopman, Mia; Lemoine, Henri; Tracy, Tyler",
     "journal": "LessWrong",
