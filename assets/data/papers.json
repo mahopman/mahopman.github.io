@@ -2,6 +2,7 @@
   {
     "title": "Evaluating and Understanding Scheming Propensity in LLM Agents",
     "authors": "Hopman, Mia; Elstner, Jannes; Avramidou, Maria; Prasad, Amritanshu; Lindner, David",
+    "venue": "NeurIPS 2025 Workshop on The Science of Benchmarking and Evaluating AI",
     "year": 2025,
     "links": [
       {
@@ -62,7 +63,7 @@
   {
     "title": "Combining Cost-Constrained Runtime Monitors for AI Safety",
     "authors": "Hua, Tim Tian; Baskerville, James; Lemoine, Henri; Hopman, Mia; Bhatt, Aryan; Tracy, Tyler",
-    "journal": "arXiv preprint arXiv:2507.15886",
+    "venue": "NeurIPS 2025",
     "year": 2025,
     "links": [
       {

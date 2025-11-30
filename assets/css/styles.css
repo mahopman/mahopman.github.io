@@ -155,6 +155,7 @@ body {
 }
 
 .paper-authors,
+.paper-venue,
 .paper-links {
   margin: 0 0 6px 0;
   color: var(--muted);
